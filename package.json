@@ -1,0 +1,18 @@
+{
+  "name": "nodewebcrawler",
+  "version": "1.0.0",
+  "description": "Un crawler para la pagina de legalizacion de titulo secundaria en Argentina.",
+  "main": "crawler.js",
+  "scripts": {
+    "start": "node crawler.js"
+  },
+  "author": "Josemaria Gonzalez Castro",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "puppeteer": "^1.12.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
