@@ -5,7 +5,7 @@ const url = 'http://titulosvalidez.educacion.gob.ar/validez/detitulos';
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const tiempoEspera = 600;
+const tiempoEspera = 1000*60*10;
 
 function sendMessage(){
     client.login('MTE2NzU3NDQ2OTI1MDkyODY0MA.Gh8p4v.c2-vLRpAWzzwbcotiSoI48aFtEEJh04_azMQ9o');
@@ -58,7 +58,7 @@ function checkForCita(){
 
 }
 
-setTimeout(() => {
+setInterval(() => {
     checkForCita()
 }, tiempoEspera);
 
