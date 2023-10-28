@@ -11,7 +11,7 @@ function sendMessage(){
     client.login('MTE2NzU3NDQ2OTI1MDkyODY0MA.Gh8p4v.c2-vLRpAWzzwbcotiSoI48aFtEEJh04_azMQ9o');
     client.on("ready", () => {
     
-        client.channels.get("1167573692071546902").send('[PRUEBA] Podria haber una cita.');
+        client.channels.get("1167573692071546902").send('Podria haber una cita.');
 
         client.destroy();
     });
